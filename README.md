@@ -7,7 +7,7 @@ $env:GOPATH=($pwd).path
 
 $env:PATH=$env:PATH+($pwd).path+"\bin;C:\Program Files\Android\Studio\jbr\bin;"
 
-gomobile bind -target android -androidapi 23 -o calculator.aar
+gomobile bind -target android -androidapi 23 -o calculator.aar [pakcage_name]
 
 
 parameter more info:- golang.org/x/mobile/cmd/gomobile
